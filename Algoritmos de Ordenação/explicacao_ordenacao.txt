@@ -1,0 +1,38 @@
+Claro, o código Java fornecido é uma implementação de vários algoritmos de ordenação dentro da classe `Ordenacao` e permite que o usuário escolha qual algoritmo usar para ordenar um vetor de 10 números na classe `Main`.
+
+### Classe `Ordenacao`:
+
+#### Métodos de Ordenação:
+- **Bubble Sort:** Percorre o array várias vezes, comparando elementos adjacentes e trocando-os se estiverem na ordem errada.
+- **Selection Sort:** Seleciona repetidamente o menor elemento restante e o coloca no início.
+- **Insertion Sort:** Constrói a ordenação um item por vez, movendo os elementos não ordenados para sua posição correta.
+- **Quick Sort:** Usa o conceito de dividir para conquistar, escolhendo um "pivô" e particionando o array ao redor do pivô.
+- **Merge Sort:** Usa a técnica de dividir para conquistar dividindo o array pela metade repetidamente e depois mesclando as partes ordenadas.
+
+### Classe `Main`:
+
+#### Funcionamento do Programa:
+1. **Loop Principal:**
+   - Exibe um menu para o usuário escolher um método de ordenação ou sair.
+   - Lê a escolha do usuário.
+   - Se a escolha for "Sair", o programa é encerrado.
+   
+2. **Leitura do Vetor:**
+   - Solicita ao usuário para inserir 10 números inteiros.
+   - Armazena esses números em um vetor.
+
+3. **Seleção do Método de Ordenação:**
+   - Com base na escolha do usuário, invoca o método de ordenação correspondente na classe `Ordenacao`.
+
+4. **Exibição do Vetor Ordenado:**
+   - Após a ordenação, exibe o vetor resultante, agora ordenado, na tela.
+
+5. **Repetição ou Encerramento:**
+   - Retorna ao início do loop, permitindo que o usuário escolha outro método de ordenação ou saia do programa.
+
+### Explicação do Merge Sort (Adicionado):
+- O método `mergeSort` na classe `Ordenacao` implementa o algoritmo do Merge Sort.
+- Divide recursivamente o vetor pela metade até que tenha apenas um elemento.
+- Depois, mescla ordenadamente essas metades para criar um vetor ordenado.
+
+No geral, esse código oferece uma interface simples para explorar diferentes algoritmos de ordenação e entender como cada um deles funciona. O usuário pode experimentar e observar como cada método se comporta ao ordenar um vetor de entrada.
